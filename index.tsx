@@ -77,9 +77,9 @@ const App = () => {
   ];
 
   const clientLogos = [
-    { name: "Gerdau", url: "https://github.com/kayosilvavinicius-prog/FILHOS-COM-ROTINA/blob/218ad1bbbe67fa4d053c6a5ee719bccc8cd08baf/logo%20gerdau.png?raw=true", className: "w-56 h-28" },
-    { name: "Bunge", url: "https://github.com/kayosilvavinicius-prog/FILHOS-COM-ROTINA/blob/218ad1bbbe67fa4d053c6a5ee719bccc8cd08baf/logo%20bunge.png?raw=true", className: "w-48 h-24" },
-    { name: "Havan", url: "https://github.com/kayosilvavinicius-prog/FILHOS-COM-ROTINA/blob/218ad1bbbe67fa4d053c6a5ee719bccc8cd08baf/logo%20havan.png?raw=true", className: "w-48 h-24" }
+    { name: "Cimento Itambé", url: "https://github.com/kayosilvavinicius-prog/FILHOS-COM-ROTINA/blob/7163942c28c674bf607fcd566565b6ae3063f46a/cimento%20itambe%20logo.png?raw=true", className: "w-56 h-28" },
+    { name: "PHD", url: "https://github.com/kayosilvavinicius-prog/FILHOS-COM-ROTINA/blob/7163942c28c674bf607fcd566565b6ae3063f46a/logo%20phd.png?raw=true", className: "w-48 h-24" },
+    { name: "Hambre", url: "https://github.com/kayosilvavinicius-prog/FILHOS-COM-ROTINA/blob/7163942c28c674bf607fcd566565b6ae3063f46a/hambre%20logo.png?raw=true", className: "w-48 h-24" }
   ];
 
   return (
@@ -118,7 +118,7 @@ const App = () => {
               <div className="relative bg-white p-2 rounded-[2.5rem] shadow-2xl overflow-hidden float-animation">
                 <img 
                   src={HERO_IMAGE_URL} 
-                  alt="Industrial Facility Inspection" 
+                  alt="" 
                   className="rounded-[2rem] w-full h-auto max-h-[550px] object-contain block mx-auto"
                 />
                 <div className="absolute bottom-8 left-10 right-10 bg-white/95 backdrop-blur-md p-6 rounded-2xl shadow-lg border border-white/20">
@@ -156,7 +156,7 @@ const App = () => {
               <img 
                 src={AUTHORITY_IMAGE_URL} 
                 className="rounded-3xl shadow-2xl w-full h-auto max-h-[600px] object-contain block mx-auto" 
-                alt="Sanitary Standards Inspection" 
+                alt="" 
               />
               <div className="absolute -bottom-4 -right-4 bg-blue-600 text-white p-6 md:p-8 rounded-3xl shadow-2xl border-4 border-white">
                 <p className="text-3xl md:text-4xl font-extrabold">+17 Anos</p>
@@ -233,7 +233,7 @@ const App = () => {
           <div className="relative rounded-[2.5rem] overflow-hidden group">
             <img 
               src="https://images.unsplash.com/photo-1541888941255-081d746394dd?q=80&w=1600&auto=format&fit=crop" 
-              alt="Industrial Sanitary Environment" 
+              alt="" 
               className="w-full h-[400px] object-cover group-hover:scale-105 transition-transform duration-1000"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 to-transparent flex items-center p-8 lg:p-16">
