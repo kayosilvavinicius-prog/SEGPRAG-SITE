@@ -230,13 +230,13 @@ const App = () => {
       {/* Industrial Visual Section */}
       <section className="py-16 bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative rounded-[2.5rem] overflow-hidden group">
+          <div className="relative rounded-[2.5rem] overflow-hidden group bg-slate-900">
             <img 
-              src="https://images.unsplash.com/photo-1541888941255-081d746394dd?q=80&w=1600&auto=format&fit=crop" 
+              src="https://images.unsplash.com/photo-1516937941344-00b4e0337589?q=80&w=1600&auto=format&fit=crop" 
               alt="" 
-              className="w-full h-[400px] object-cover group-hover:scale-105 transition-transform duration-1000"
+              className="w-full h-[400px] object-cover group-hover:scale-105 transition-transform duration-1000 opacity-60"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 to-transparent flex items-center p-8 lg:p-16">
+            <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/40 to-transparent flex items-center p-8 lg:p-16">
                <div className="max-w-xl space-y-4">
                  <h4 className="text-2xl lg:text-3xl font-bold text-white">Práticas Sustentáveis e Métodos de Última Geração.</h4>
                  <p className="text-white/80 text-md">Protegemos ambientes críticos garantindo que seu espaço esteja em conformidade total com a vigilância sanitária.</p>
